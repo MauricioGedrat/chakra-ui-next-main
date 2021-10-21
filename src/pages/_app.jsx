@@ -7,9 +7,7 @@ import '../assets/geral.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-const App = (props: AppProps) => {
-    const { Component, pageProps } = props
-
+function MyApp({ Component, pageProps }) {
     const theme = extendTheme({
         colors: {
             brand: {
@@ -57,4 +55,4 @@ const App = (props: AppProps) => {
     )
 }
 
-export default App
+export default MyApp
