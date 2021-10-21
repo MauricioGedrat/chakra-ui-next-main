@@ -12,7 +12,7 @@ import {
 
 export default function Newslleter() {
     return (
-        <Flex align={'center'} justify={'center'} py={12}>
+        <Flex align={'center'} justify={'center'} py={12} data-aos="flip-right">
             <Stack
                 marginTop="10"
                 boxShadow={'2xl'}

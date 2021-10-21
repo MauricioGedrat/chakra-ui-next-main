@@ -12,7 +12,7 @@ import {
 
 const AppCollapse = () => {
     return (
-        <Box justifyContent="center" marginBottom="10">
+        <Box justifyContent="center" marginBottom="10" data-aos="zoom-in">
             <Text
                 textAlign={'center'}
                 fontSize={'4xl'}

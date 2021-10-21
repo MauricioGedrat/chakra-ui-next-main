@@ -52,7 +52,13 @@ function StatsCard(props: StatsCardProps) {
 
 export default function Stats() {
     return (
-        <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
+        <Box
+            maxW="7xl"
+            mx={'auto'}
+            pt={5}
+            px={{ base: 2, sm: 12, md: 17 }}
+            data-aos="flip-down"
+        >
             <chakra.h1
                 textAlign={'center'}
                 fontSize={'4xl'}

@@ -1,8 +1,11 @@
 import { AppProps } from 'next/app'
+import { useEffect } from 'react'
 import Head from 'next/head'
 import { ChakraProvider, extendTheme, Box } from '@chakra-ui/react'
 import { AnimatePresence } from 'framer-motion'
 import '../assets/geral.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const App = (props: AppProps) => {
     const { Component, pageProps } = props
@@ -26,6 +29,12 @@ const App = (props: AppProps) => {
             },
         },
     })
+    useEffect(() => {
+        // here you can add your aos options
+        AOS.init({
+            offset: 100,
+        })
+    }, [])
 
     // console.table(theme.colors)
 

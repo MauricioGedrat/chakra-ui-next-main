@@ -26,7 +26,7 @@ export default function App() {
     const bg = useColorModeValue('red.500', 'red.200')
     const color = useColorModeValue('white', 'gray.800')
     return (
-        <Box>
+        <Box data-aos="fade-right">
             <Header />
             <div
                 className="CarouselAndHero"

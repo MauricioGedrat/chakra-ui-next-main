@@ -30,7 +30,7 @@ export function Header() {
     const { isOpen, onToggle } = useDisclosure()
 
     return (
-        <Box align="center">
+        <Box align="center" data-aos="fade-up">
             <Flex
                 bg={useColorModeValue('white', 'gray.800')}
                 color={useColorModeValue('gray.600', 'white')}

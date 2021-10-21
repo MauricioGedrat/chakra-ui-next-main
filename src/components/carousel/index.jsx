@@ -98,6 +98,7 @@ export default function Carousel() {
                 display: 'flex',
                 marginBottom: '30px',
             }}
+            data-aos="fade-up-right"
         >
             <Flex
                 marginTop="10"
