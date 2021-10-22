@@ -8,11 +8,11 @@ import {
     Stack,
 } from '@chakra-ui/react'
 import Image from 'next/image'
-import Carro1 from '../../assets/img/Ferrari.jpg'
-import Carro2 from '../../assets/img/Audi.jpg'
-import Carro3 from '../../assets/img/gtr.jpg'
-import Carro4 from '../../assets/img/Lambo-veneno.jpg'
-import Carro5 from '../../assets/img/porshe.jpg'
+import Carro1 from 'assets/img/Ferrari.jpg'
+import Carro2 from 'assets/img/Audi.jpg'
+import Carro3 from 'assets/img/gtr.jpg'
+import Carro4 from 'assets/img/Lambo-veneno.jpg'
+import Carro5 from 'assets/img/porshe.jpg'
 
 export default function Carousel() {
     const arrowStyles = {
