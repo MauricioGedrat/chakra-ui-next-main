@@ -1,4 +1,3 @@
-import { AppProps } from 'next/app'
 import { useEffect } from 'react'
 import Head from 'next/head'
 import { ChakraProvider, extendTheme, Box } from '@chakra-ui/react'

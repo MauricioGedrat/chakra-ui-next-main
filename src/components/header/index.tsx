@@ -222,7 +222,7 @@ const NAV_ITEMS: Array<NavItem> = [
     },
     {
         label: 'Portfólio',
-        href: '#',
+        href: 'https://my-portfolio-d0e4g292x-mauriciogedrat.vercel.app/',
     },
     {
         label: 'Contato',
